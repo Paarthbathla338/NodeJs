@@ -10,21 +10,8 @@
 // console.log("Hello World this is my First Node App")
 
 // Tut 3
-const n="Paarth"
-const i="Kabir"
-const j="Sandeep"
+const names=require("./intro2.js")
+const sayHi=require("./5-utils.js")
 
-const sayHi=(name)=>{
-    if(name=="Paarth"){
-        console.log("Paarth is super strong")
-    if(name=="Kabir"){
-        console.log("Kabir is Paarth's Brother")
-    
-    }
 
-    if(name=="Sandeep"){
-        console.log("Sandeep is Paarth's Father")
-    }
-}
-}
-sayHi("Paarth")
+sayHi(names.i)

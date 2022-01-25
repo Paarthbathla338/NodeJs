@@ -1,5 +1,7 @@
-myName="amount"
-console.log(myName)
-console.log(__dirname)
+const n="Paarth"
+//Global Var
+const i="Kabir"
+const j="Sandeep"
 
 
+module.exports={i,j}
